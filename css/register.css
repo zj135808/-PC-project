@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+.clearFix:before,.clearFix:after{
+    display: block;
+    content: "";
+    overflow: hidden;
+    clear: both;
+}
+body {
+    background: url("../img/login_bg_m1.jpg");
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    width: 980px;
+    margin: 0 auto;
+}
+.wrap .head{
+    padding: 40px 0 30px 0;
+}
+.wrap .head .reg-logo{
+    display: inline-block;
+    width: 157px;
+    height: 56px;
+    margin-right: 25px;
+    background: url("../img/register_logo.png");
+}
+.wrap .head .welcome-txt{
+    display: inline-block;
+    width: 336px;
+    height: 50px;
+    background: url("../img/welcome_txt.png");
+}
+.wrap .main{
+    padding: 40px 50px 0 80px;
+    background: #fff;
+}
+.wrap .main .logoin-form{
+    float: right;
+    width: 320px;
+}
+.wrap .main .logoin-form form h3{
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0 15px;
+}
+.wrap .main .logoin-form form h3 a{
+    font-size: 14px;
+    font-weight: normal;
+    color: #ff6699;
+    text-decoration: underline;
+    float: right;
+}
+.login-list .login-box{
+    position: relative;
+}
+.login-list .login-box input{
+    width: 280px;
+    height: 34px;
+    border: 1px solid #999;
+    padding-left: 35px;
+}
+.login-list .login-box .user-icon,
+.login-list .login-box .pass-icon{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: url("../img/login_icon-4.png") no-repeat;
+}
+.login-list .login-box .msg-err{
+    position: absolute;
+    top: 6px;
+    right: -30px;
+    width: 25px;
+    height: 25px;
+    background: url("../img/login_icon-4.png") no-repeat -25px -25px;
+}
+.login-list .login-box .msg_error{
+    height: 30px;
+    line-height: 30px;
+    color: #f69;
+    font-size: 12px;
+}
+.login-list .login-box .pass-icon{
+    background-position: -25px 0;
+}
+.wrap .main .logoin-form .authpic p{
+    height: 30px;
+    font-size: 12px;
+    color: #999;
+    line-height: 30px;
+}
+.wrap .main .logoin-form {
+    margin-bottom: 25px;
+}
+.authpic .pic-list{
+    position: relative;
+}
+.logoin-form .authpic .pic-list ul {
+    float: left;
+}
+.logoin-form .authpic .pic-list ul li{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.authpic .pic-list ul li img{
+    width: 100%;
+    height: 100%;
+}
+.logoin-form .authpic .pic-list a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #f69;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.logoin-form .login-btn{
+    width: 308px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 6px;
+    font-size: 16px;
+    text-align: center;
+    background: #f69;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.logoin-form .forget-pas{
+    margin-top: 5px;
+}
+.logoin-form .forget-pas label{
+    font-size: 12px;
+    color: #666;
+}
+.logoin-form .forget-pas a{
+    color: #f69;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+.logoin-form .fast-login{
+    margin-top: 20px;
+}
+.logoin-form .fast-login h3{
+    font-size: 14px;
+    color: #666;
+    padding: 20px 0 15px;
+    border-top: 1px solid #ccc;
+    font-weight: normal;
+}
+.logoin-form .fast-login a{
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    background: url("../img/login_fast_new.png") no-repeat 0 -120px;
+}
+.logoin-form .fast-login .a2{
+    background-position: 0 -160px;
+}
+.logoin-form .fast-login .a3{
+    background-position: 0 -200px;
+    margin-right: 0;
+}
+.logoin-form .login-more{
+    margin-top: 25px;
+}
+.logoin-form .login-more .more{
+    display: block;
+    color: #666;
+    font-size: 12px;
+    line-height: 26px;
+}
+.logoin-form .notice{
+    margin-top: 15px;
+}
+.logoin-form .notice{
+    background: url("../img/notice_m.png") no-repeat;
+    padding-left: 22px ;
+}
+.logoin-form .notice{
+    font-size: 12px;
+    color: #666;
+}
+.logoin-form .notice a{
+    font-size: 12px;
+    color: #f69;
+    text-decoration: underline;
+}
